@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="p.2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+    background-color: lavenderblush;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-color: pink;
+    color: white;
+    text-align: center;
+    list-style: none;
+    padding: 15px;
+}
+img{
+    position: absolute;
+    left: 35%;
+    padding-top: 40px;
+    height: 40%;
+}
+
+header ul{
+    list-style: none;
+    padding: 0;
+}
+header ul li{
+    display: inline;
+    margin: 0px 10px;
+}
+header ul li a{
+    text-decoration: none;
+    color: wheat;
+}
+main{
+    background-color: beige;
+    color: #000;
+    margin: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color:blue;
+}
+article{
+    border-bottom: 1px solid;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: pink;
+    color:white;
+    padding: 20px;
+    text-align: center;
+
+}
+    </style>
+</head>
+<body>
+    <header>
+    <h1>My Blog</h1>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+    </header>  
+    <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <main>
+        <article>
+            <h2>BIO</h2>
+            <p>About the author</p>
+        </article>
+        <article>
+            <h2>Blog Post</h2>
+            <p>Content of the second blog post...</p>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Simple Blog </p>
+    </footer>
+</body>
+</html>
