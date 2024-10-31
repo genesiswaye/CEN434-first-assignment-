@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="cen434.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    background-color: burlywood;
+}
+h1{
+    color:aquamarine;
+}
+*{
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+    </style>
+</head>
+<body>
+    <h1>Please fill this form</h1>
+    <div>
+    <form action="GET">
+        <label for="firstname">Firstname: </label> <br>
+        <input type="text" id="firstname">
+        <br>
+        <label for="lastname">Lastname:</label><br>
+        <input type="text" id="lastname">
+        <br>
+        <label for="age"> Age:</label><br>
+        <input type="date">
+        <br>
+        <section style="border:black;">
+        <label for="gender">Gender:</label>
+        <br>
+        Male <input type="radio" name="gender" value="Male"> 
+        <br>
+        Female<input type="radio" name="gender" value="Female"> 
+    </section>
+        <label for="passport">Please attach your passport</label> 
+        <br>
+        <input type="image">
+    </form>
+</div>
+</div>
+</body>
+</html>
