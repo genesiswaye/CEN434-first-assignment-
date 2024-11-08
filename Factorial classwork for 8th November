@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/Javascript">
+        // matric number ends with 15
+        
+        function factorial(matricNumber){
+        if (matricNumber < 0){
+            return "Factorial is not defined for negative numbers";
+        }
+        if (matricNumber === 0 || matricNumber === 1) {
+            return 1;
+        }
+        let result = 1;
+        for (let i = 2; i <= matricNumber; i++) {
+            result *= i;
+        }
+        return result;
+    }
+    let number = 15;
+    Answer = factorial(number);
+    console.log(Answer);   
+
+    </script>
+</body>
+</html>
