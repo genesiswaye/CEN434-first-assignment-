@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/Javascript">
+    function factorial(n){
+        if (n < 0){
+        return "Factorial is not defined for negative numbers";
+    }
+    if (n === 0 || n === 1) {
+        return 1;
+    }
+    let result = 1;
+    for (let i = 2; i <= n; i++) {
+        result *= i;
+    }
+    return result;
+}
+        function combination(x, y){
+            if (x > y){
+                result = factorial(x) / (factorial(y) * factorial(x - y));
+                console.log("x > y");
+                return factorial(x) / (factorial(y) * factorial(x - y));
+            }
+            if (y > x){
+                result = factorial(y) / (factorial(x) * factorial(y - x));
+                console.log("y > x");
+                return factorial(y) / (factorial(x) * factorial(y - x));
+            }
+            if (x = y){
+                result = factorial(x + 1) / (factorial(y) * factorial((x + 1) - y));
+                console.log("x = y");
+               return factorial(x + 1) / (factorial(y) * factorial((x + 1) - y));
+            }
+            return result;
+        }
+        Answer = combination(10, 6);
+        console.log(Answer);
+    </script>
+</body>
+</html>
