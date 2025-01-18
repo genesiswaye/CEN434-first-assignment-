@@ -21,9 +21,9 @@ SELECT * FROM Student_details;
 
 SELECT * FROM Student_details WHERE Gender = 'Female';
 
-UPDATE Student_details SET Name = 'John Doe' WHERE ID = 1;
+UPDATE Student_details SET Name = 'John Doe' WHERE ID = 9;
 
-DELETE FROM Student_details WHERE ID = 9;
+DELETE FROM Student_details WHERE ID = 4;
 
 SELECT COUNT(*) AS TotalStudents FROM Student_details;
 
